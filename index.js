@@ -10,6 +10,7 @@ express()
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs')
   .get('/', (req, res) => res.render('pages/index'))
+  .get('/chat', (req, res) => res.render('pages/chat'))
   .post('/createTicket', function(req, res) {
     const prettyJSON = JSON.stringify(req.body, null, 4);
     console.log('in message, Message = ', prettyJSON);
