@@ -25,9 +25,15 @@ Once your app repo is committed to Github, click this button:
 
 Enter your app name (must be unique) and click "Create App"
 
+![create app](https://github.com/dminnick-chegg/agile-inlet-78034/blob/master/documentation-assets/create-app.png)
+
 Click on the "Deploy" tab and select "Github" under deploy method.
 
+![link github](https://github.com/dminnick-chegg/agile-inlet-78034/blob/master/documentation-assets/link-github.png)
+
 Then Click "Connect to GitHub"
+
+![auto deploy](https://github.com/dminnick-chegg/agile-inlet-78034/blob/master/documentation-assets/auto-deploy.png)
 
 Once connected, under the "Automatic deploys" section select the deploy branch (perhaps master) and click "Enable Automatic Deploys"
 
