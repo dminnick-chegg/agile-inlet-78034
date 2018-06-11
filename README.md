@@ -1,4 +1,5 @@
-# node-js-getting-started
+# Getting a Node App deployed to Heroku
+### ReadMe copied and modified from heroku's node-js-getting-started repo
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
@@ -17,16 +18,18 @@ $ npm start
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+## Set up deploy pipeline to Heroku
 
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
-
+Once your app repo is committed to Github, click this button:
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+Enter your app name (must be unique) and click "Create App"
+
+Click on the "Deploy" tab and select "Github" under deploy method.
+
+Then Click "Connect to GitHub"
+
+Once connected, under the "Automatic deploys" section select the deploy branch (perhaps master) and click "Enable Automatic Deploys"
 
 ## Documentation
 
